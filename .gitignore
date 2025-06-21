@@ -11,10 +11,62 @@ db.sqlite3
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+
+# Archivos de distribución
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # Archivos del sistema
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
 # Variables de entorno
 .env
+.env.local
+.env.*.local
+
+# Archivos de log
+*.log
+
+# Archivos de medios (en producción)
+media/
+
+# Archivos estáticos recolectados
+staticfiles/
+static_root/
+
+# Archivos de cobertura de tests
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
